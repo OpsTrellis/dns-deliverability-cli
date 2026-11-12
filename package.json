@@ -1,0 +1,38 @@
+{
+  "name": "@opstrellis/dns-deliverability-cli",
+  "version": "1.0.0",
+  "description": "⚡ Ultra-fast CLI to audit domain SPF, DKIM, DMARC, MX records, and DNSBL blacklist status directly from your terminal.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "opstrellis-dns": "./bin/cli.js",
+    "deliverability-check": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js opstrellis.com"
+  },
+  "keywords": [
+    "email-deliverability",
+    "spf-checker",
+    "dkim-verifier",
+    "dmarc-validator",
+    "blacklist-checker",
+    "dnsbl",
+    "mx-records",
+    "opstrellis"
+  ],
+  "author": "OpsTrellis <info@opstrellis.com> (https://opstrellis.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpsTrellis/dns-deliverability-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpsTrellis/dns-deliverability-cli/issues"
+  },
+  "homepage": "https://opstrellis.com/tools/domain-health/",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
